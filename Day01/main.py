@@ -20,7 +20,6 @@ def part_1():
 
 
 def part_2():
-    data2 = [199,200,208,210,200,207,240,269,260,263]
     lastSum = 0
     total = 0
     for idx, x in enumerate(data):
@@ -46,6 +45,8 @@ def part_2():
     print("Total: " + str(total))
     print("--------")
     f.close()
+
+
 if __name__ == "__main__":
     # part_1()
     part_2()
